@@ -1,0 +1,19 @@
+# Minimal Jekyll config for personal blog
+title: "gofly.dev"
+description: "Personal blog of akhaisin"
+baseurl: ""
+url: "https://gofly.dev"
+theme: minima
+
+# Navigation menu
+menu:
+  - title: "Blog"
+    url: "/"
+  - title: "CV"
+    url: "/cv.html"
+  - title: "Contacts"
+    url: "/contacts.html"
+
+# Build settings
+plugins:
+  - jekyll-feed
